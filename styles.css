@@ -78,7 +78,7 @@ header {
 }
 
 .header__container {
-    padding-top: 24pxpx;
+    padding-top: 24px;
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
@@ -135,16 +135,19 @@ button:active {
 
 .row {
     width: 100%;
-    max-width: 120px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 
-/* HIGHLIGHTS */
+/* 
+
+HIGHLIGHTS
+
+*/
 
 .highlight__wrapper {
     display: flex;
-    justify-content: space-around;
 }
 
 .highlight {
@@ -153,7 +156,29 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: #7342d6;
-    border-radius: 4px;
     flex-direction: column;
+}
+
+.highlight__para {
+    text-align: center;
+}
+
+.highlight__img {
+    border: 2px solid #7342d65d;
+    color: #7342d6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+
+
+.highlight__subtitle {
+    font-size: 20px;
+    margin-bottom: 16px;
 }
