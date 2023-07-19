@@ -238,6 +238,7 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -283,3 +284,17 @@ FEATURES
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+
+/* 
+
+explore
+
+*/
+
+#explore {
+    align-items: center;
+    justify-content: center;
+}
+
+
